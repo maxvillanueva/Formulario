@@ -1,0 +1,31 @@
+h1.titulo{
+    color:dodgerblue;
+    text-align:center
+}
+h2{
+    color:dodgerblue;
+    text-align:center;
+    font:italic bold 14pt Times, serif
+}
+.tituloform{
+    color:black;
+    background-color: aqua;
+    font-weight: bold;
+}
+.label{
+    font-weight: bold;
+}
+.hover{
+
+    border: 2px solid firebrick;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+
+.hover:hover{
+    background-color:red;
+}
+.hover:focus{
+    background: yellow;
+}

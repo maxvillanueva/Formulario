@@ -4,9 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario</title>
+    <link rel="stylesheet" href="CSS/estilos_formulario.css"/>
 </head>
 <body>
-    
+    <header>
+        <h1 class="titulo">iMODELO</h1>
+    </header>
+    <h2>Formulario de Registro</h2>
+<br>
+<fieldset>
+    <legend class="tituloform">Quién eres?</legend>
+
+    <form action="/action_page.php">
+      <label class="label" for="Nombre">Nombre</label><br>
+      <input class="hover" type="text" id="Nombre" name="Nombre"><br><br>
+      <label label class="label" for="Apellido">Apellido</label><br>
+      <input class="hover" type="text" id="Apellido" name="Apellido"><br><br>
+      <label label class="label"  for="Fecha de nacimiento">Fecha de Nacimiento</label><br>
+      <select class="hover" name="Fecha de nacimiento">
+        <option value="Día">Día</option>
+     </select>
+     <select class="hover" name="Mes">
+        <option value="Mes">Mes</option>
+     </select>
+     <select class="hover" name="Año">
+        <option value="Año">Año</option>
+     </select>
+</fieldset>
+<br>
+
+  <fieldset>
+    <legend class="tituloform">De dónde eres?</legend>
+  <form action="/action_page.php">
+    <label label class="label" for="ciudad">Ciudad</label><br>
+    <input class="hover" type="text" id="ciudad" name="ciudad"><br><br>
+    <label label class="label" for="cp">Código Postal</label><br>
+    <input class="hover" type="text" id="cp" name="cp"><br><br>
+    <label label class="label"  for="Pais">País</label><br>
+    <select class="hover" name="País">
+        <option value="País">Pais</option>
+     </select>
+  </fieldset>
+  
+  
+</form>
 </body>
 </html>
